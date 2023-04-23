@@ -8,6 +8,6 @@ generator client {
 }
 
 model User {
-  id        String   @id @default(gen_random_uuid())
+  id        String   @id @default(uuid())
   name      String   @db.VarChar(255)
 }
