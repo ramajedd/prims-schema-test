@@ -8,6 +8,6 @@ generator client {
 }
 
 model customers {
-  id        String   @db.Uuid
+  id        String   @id @db.Uuid
   name      String   @db.VarChar(255)
 }
