@@ -7,7 +7,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model customers {
+model Pelanggan {
   id        String   @id @db.Uuid
   name      String   @db.VarChar(255)
 }
